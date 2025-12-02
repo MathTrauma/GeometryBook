@@ -1,0 +1,14 @@
+format: jb-book
+root: intro
+chapters:
+  - file: chapter1
+    title: 제1장 기초
+  - file: chapter2
+    title: 제2장 응용
+    sections:
+      - file: chapter2_section1
+        title: 2.1 미적분
+      - file: chapter2_section2
+        title: 2.2 선형대수
+  - file: chapter3
+    title: 제3장 고급
