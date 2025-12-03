@@ -1,0 +1,34 @@
+# 책 기본 정보
+title: 평면도형
+author: MathTrauma
+logo: logo.png
+
+# 실행 설정
+execute:
+  execute_notebooks: force
+
+# LaTeX 수식 및 고급 기능 활성화
+parse:
+  myst_enable_extensions:
+    - amsmath        # AMS 수학 환경
+    - dollarmath     # $ 기호로 수식 작성
+    - colon_fence    # ::: 구문
+    - deflist        # 정의 목록
+    - html_image     # HTML 이미지
+    - linkify        # URL 자동 링크
+    - substitution   # 변수 치환
+
+# Sphinx 설정
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    html_theme_options:
+      use_download_button: true
+      repository_url: https://github.com/yourusername/yourrepo
+      use_issues_button: true
+      use_repository_button: true
+
+# LaTeX 빌드 설정 (PDF 생성용)
+latex:
+  latex_documents:
+    targetname: book.tex
