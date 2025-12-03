@@ -5,6 +5,12 @@ root: intro
 chapters:
   - file: contents/_gemini/main
     title: 순수하게 테스트
+
+  - file: contents/quiz02
+    title: 문제02
+
+  - file: contents/quiz03
+    title: 문제03
   
   - file: contents/chapter1
     title: 울고 싶다.
